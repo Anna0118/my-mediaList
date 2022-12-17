@@ -1,0 +1,40 @@
+img:hover {
+    transform: scale(1.1, 1.1);
+    transition: .5s
+}
+
+.btn-add-favorite {
+    margin: 0 2px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 60%;
+    background: #F08079;
+}
+
+.btn-add-favorite.liked {
+    color: white;
+    background: red;
+}
+
+.btn-add-favorite:hover {
+    border: 0px;
+    transform: scale(1.2, 1.2);
+    transition: .5s;
+    color: white;
+    background: red
+}
+
+.btn-remove-favorite:hover {
+    margin: 0 2px;
+    cursor: pointer;
+    border: 0px;
+    background: grey;
+    color: white;
+    transform: scale(1.1, 1.1);
+    transition: .5s
+}
+
+.fa-heart,
+.fa-trash {
+    pointer-events: none;
+}
